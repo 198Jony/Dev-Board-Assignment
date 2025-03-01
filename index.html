@@ -20,10 +20,10 @@
                 <div class="flex justify-between items-center gap-8">
                     <div  class="flex justify-between items-center">
                         <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
-                        <h2 class="ml-2 text-lg font-bold text-black">24</h2>
+                        <h2 id="milestone" class="ml-2 text-lg font-bold text-black">23</h2>
                     </div>
                     <div>
-                        <img src="assets\theme-btn.png" alt="">
+                        <img id="random-color" src="assets\theme-btn.png" alt="">
                     </div>
                 </div>
             </nav>
@@ -38,7 +38,7 @@
                         </div>
                         <div>
                             <p class="text-sm text-black font-medium">Task Assigned </p>
-                            <h2 class="text-lg text-black font-bold">06</h2>
+                            <h2  class="text-lg text-black font-bold">0<span id="task-assign">6</span></h2>
                         </div>
                     </div>
                     <div id="discover-something" class="flex  items-center gap-4 bg-gradient-to-r from-blue-900 to-blue-200 rounded-xl col-span-2 px-4 py-2">
@@ -53,8 +53,8 @@
                        <div>
                           <img src="assets\calender.png" alt="">
                        </div>
-                       <div>
-                        <P class="text-black text-sm font-medium">Discover Something<br> New Today!</P>
+                       <div id="date">
+                        
                        </div>
                     </div>
                   </div>
@@ -70,7 +70,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button  id="completed-btn-1" class="btn btn-primary completed-btn">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -85,7 +85,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn-2" class="btn btn-primary completed-btn">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -100,7 +100,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn-3" class="btn btn-primary completed-btn">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -116,7 +116,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn-4" class="btn btn-primary completed-btn">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -131,7 +131,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn-5" class="btn btn-primary completed-btn">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -146,7 +146,7 @@
                                     <h4 class="text-black font-normal text-sm">Deadline</h4>
                                     <h2 class="text-black font-medium text-sm">21 March 2025</h2>
                                 </div>
-                                <button class="btn btn-primary">Completed</button>
+                                <button id="completed-btn-6" class="btn btn-primary ">Completed</button>
                               </div>
                             </div>
                           </div>
@@ -170,5 +170,6 @@
     
 
    <script src="index.js"></script>
+   <script src="completed.js"></script>
 </body>
 </html>
