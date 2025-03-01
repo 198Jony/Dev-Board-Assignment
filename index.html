@@ -4,8 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Board Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-gray-400">
+    
+   <div class="px-5 py-5">
+    <div class="max-w-6xl min-h-screen  mx-auto ">
+        <header>
+            <nav class="flex justify-between items-center bg-white p-3 rounded-2xl">
+                <div class="flex justify-between items-center gap-5">
+                    <img src="assets\logo.png" alt="">
+                    <h2 class="text-3xl font-normal text-black">Dev<span class="text-3xl font-bold text-black">Board</span></h2>
+                </div>
+                <div class="flex justify-between items-center gap-8">
+                    <div  class="flex justify-between items-center">
+                        <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
+                        <h2 class="ml-2 text-lg font-bold text-black">24</h2>
+                    </div>
+                    <div>
+                        <img src="assets\theme-btn.png" alt="">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="mt-4">
+            <div class="grid grid-cols-4 gap-4"> 
+                <div class="col-span-3 bg-white rounded-xl">
+                  <div class="grid grid-cols-4 p-4 gap-4">
+                    <div class="flex items-center gap-4 bg-gray-200 rounded-xl col-span-1 px-4">
+                        <div>
+                            <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
+                        </div>
+                        <div>
+                            <p class="text-sm text-black font-medium">Task Assigned </p>
+                            <h2 class="text-lg text-black font-bold">06</h2>
+                        </div>
+                    </div>
+                    <div class="flex  items-center gap-4 bg-gradient-to-r from-blue-900 to-blue-200 rounded-xl col-span-2 px-4 py-2">
+                       <div>
+                          <img src="assets\board.png" alt="">
+                       </div>
+                       <div>
+                          <P class="text-white text-lg font-medium">Discover Something<br> New Today!</P>
+                       </div>
+                    </div>
+                    <div class="flex  items-center gap-4 bg-gray-200 rounded-xl col-span-1 px-4">
+                       <div>
+                          <img src="assets\calender.png" alt="">
+                       </div>
+                       <div>
+                        <P class="text-black text-sm font-medium">Discover Something<br> New Today!</P>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="border-b border-dashed mt-4 border-gray-300"></div>
+                  <div class="grid grid-cols-3 gap-4 p-4 mt-4">
+                        <div class="card bg-base-100 shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">ShopEase</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Fix Mobile Button Issue </h4>
+                              <p class="text-gray-400 font-sm font-normal">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100  shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">CloudSync</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Add Dark Mode</h4>
+                              <p class="text-gray-400 font-sm font-normal">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100  shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">SwiftPay</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Optimize  Home page </h4>
+                              <p class="text-gray-400 font-sm font-normal">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100 shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">Meta</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Add new emoji 🤲</h4>
+                              <p class="text-gray-400 font-sm font-normal">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100  shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">Google LLC</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Integrate OpenAI API </h4>
+                              <p class="text-gray-400 font-sm font-normal">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100  shadow-sm bg-gray-200">
+                            <div class="card-body">
+                              <h2 class="text-black font-normal text-sm">Glassdoar</h2>
+                              <h4 class="card-title text-black font-medium text-xl">Improve Job searching </h4>
+                              <p class="text-gray-400 font-sm font-normal">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and ensure onClick works properly</p>
+                              <div class="card-actions justify-between mt-5">
+                                <div>
+                                    <h4 class="text-black font-normal text-sm">Deadline</h4>
+                                    <h2 class="text-black font-medium text-sm">21 March 2025</h2>
+                                </div>
+                                <button class="btn btn-primary">Completed</button>
+                              </div>
+                            </div>
+                          </div>
+                  </div>
+                </div>
+                <div class="col-span-1 bg-white  rounded-xl">
+                    <div>
+                        <div class="flex justify-center items-center gap-4 p-4">
+                            <img src="assets\activity.png" alt="">
+                            <p class="text-black font-medium text-xl">Activity Log</p>
+                        </div>
+                        <button class="btn btn-primary mx-auto block mt-2 font-medium text-sm">Clear History</button>
+                    </div>
+                    <div class="border-b border-dashed mt-4 border-gray-300"></div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+   </div>
     
 </body>
 </html>
