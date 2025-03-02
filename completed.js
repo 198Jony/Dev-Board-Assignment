@@ -4,10 +4,11 @@ document.getElementById("history-3").style.display="none";
 document.getElementById("history-4").style.display="none";
 document.getElementById("history-5").style.display="none";
 document.getElementById("history-6").style.display="none";
-document.getElementById("history").style.display="block";
+document.getElementById("historys").style.display="block";
 
 document.getElementById('completed-btn-1').addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
@@ -40,7 +41,8 @@ document.getElementById('completed-btn-1').addEventListener('click',
 })
 
 document.getElementById('completed-btn-2').addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
@@ -73,7 +75,8 @@ document.getElementById('completed-btn-2').addEventListener('click',
 })
 
 document.getElementById('completed-btn-3').addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
@@ -106,7 +109,8 @@ document.getElementById('completed-btn-3').addEventListener('click',
 })
 
 document.getElementById('completed-btn-4').addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
@@ -138,7 +142,8 @@ document.getElementById('completed-btn-4').addEventListener('click',
 })
 
 document.getElementById('completed-btn-5').addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
@@ -171,8 +176,9 @@ document.getElementById('completed-btn-5').addEventListener('click',
 })
 
 document.getElementById('completed-btn-6').addEventListener('click',
-    function(){
-        
+    function(event){
+        event.preventDefault();
+
         let myDate=new Date();
         let myNewDate= myDate.toLocaleTimeString();
 
@@ -206,8 +212,9 @@ document.getElementById('completed-btn-6').addEventListener('click',
 })
 
 document.getElementById("clear-history").addEventListener('click',
-    function(){
+    function(event){
+        event.preventDefault();
         
-        document.getElementById("history").style.display="none";
+        document.getElementById("historys").style.display="none";
        
 })
